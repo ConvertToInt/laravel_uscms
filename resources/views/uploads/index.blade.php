@@ -16,7 +16,7 @@
             </form>
 
             <form method ="POST" 
-                action='{{ url("/uploads/{$upload->id}")}}'  
+                action='{{url("/uploads/{$upload->id}")}}'  
                 style="display:inline!Important;">
 
                 @csrf
